@@ -48,7 +48,6 @@ struct ListView: View {
             }
             .navigationTitle("iOS14")
         }
-
     }
 }
 

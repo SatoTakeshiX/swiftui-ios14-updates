@@ -15,6 +15,7 @@
 		301B898024AB1E0F000367B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301B897E24AB1E0F000367B4 /* LaunchScreen.storyboard */; };
 		301B898B24AB1E0F000367B4 /* iOS13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B898A24AB1E0F000367B4 /* iOS13Tests.swift */; };
 		301B899624AB1E0F000367B4 /* iOS13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B899524AB1E0F000367B4 /* iOS13UITests.swift */; };
+		3096C1AA24AB2962001370EA /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096C1A924AB2962001370EA /* SideBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		301B899124AB1E0F000367B4 /* iOS13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS13UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		301B899524AB1E0F000367B4 /* iOS13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13UITests.swift; sourceTree = "<group>"; };
 		301B899724AB1E0F000367B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3096C1A924AB2962001370EA /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				301B897324AB1E0D000367B4 /* AppDelegate.swift */,
 				301B897524AB1E0D000367B4 /* SceneDelegate.swift */,
 				301B897724AB1E0D000367B4 /* ContentView.swift */,
+				3096C1A924AB2962001370EA /* SideBarView.swift */,
 				301B897924AB1E0F000367B4 /* Assets.xcassets */,
 				301B897E24AB1E0F000367B4 /* LaunchScreen.storyboard */,
 				301B898124AB1E0F000367B4 /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301B897424AB1E0D000367B4 /* AppDelegate.swift in Sources */,
+				3096C1AA24AB2962001370EA /* SideBarView.swift in Sources */,
 				301B897624AB1E0D000367B4 /* SceneDelegate.swift in Sources */,
 				301B897824AB1E0D000367B4 /* ContentView.swift in Sources */,
 			);

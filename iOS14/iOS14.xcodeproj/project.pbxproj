@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3070FCBC24AB226100A29DE7 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070FCBB24AB226100A29DE7 /* SideBarView.swift */; };
+		3070FCBD24AB226100A29DE7 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070FCBB24AB226100A29DE7 /* SideBarView.swift */; };
 		30A088EB24AB129000315264 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A088EA24AB129000315264 /* Tests_iOS.swift */; };
 		30A088F624AB129000315264 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A088F524AB129000315264 /* Tests_macOS.swift */; };
 		30A088F824AB129000315264 /* iOS14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A088CF24AB128E00315264 /* iOS14App.swift */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3070FCBB24AB226100A29DE7 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		30A088CF24AB128E00315264 /* iOS14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14App.swift; sourceTree = "<group>"; };
 		30A088D024AB128E00315264 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30A088D124AB128F00315264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +103,7 @@
 			children = (
 				30A088CF24AB128E00315264 /* iOS14App.swift */,
 				30A088D024AB128E00315264 /* ContentView.swift */,
+				3070FCBB24AB226100A29DE7 /* SideBarView.swift */,
 				30A088D124AB128F00315264 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3070FCBC24AB226100A29DE7 /* SideBarView.swift in Sources */,
 				30A088FA24AB129000315264 /* ContentView.swift in Sources */,
 				30A088F824AB129000315264 /* iOS14App.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3070FCBD24AB226100A29DE7 /* SideBarView.swift in Sources */,
 				30A088FB24AB129000315264 /* ContentView.swift in Sources */,
 				30A088F924AB129000315264 /* iOS14App.swift in Sources */,
 			);
