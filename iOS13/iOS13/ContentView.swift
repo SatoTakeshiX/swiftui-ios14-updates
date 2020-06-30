@@ -1,8 +1,9 @@
 //
 //  ContentView.swift
-//  Shared
+//  iOS13
 //
 //  Created by satoutakeshi on 2020/06/30.
+//  Copyright © 2020 satoutakeshi. All rights reserved.
 //
 
 import SwiftUI
@@ -35,20 +36,16 @@ struct ListView: View {
         NavigationView {
             Form {
                 ForEach(0 ..< 10) { index in
-
-                    NavigationLink(
-                        destination: Text("detail: \(index) cell"),
-                        label: {
-                            HStack {
-                                Image(systemName: "heart.fill")
-                                Text("\(index)")
-                            }
-                        })
+                    NavigationLink(destination: Text("detaile: \(index) cell")) {
+                        HStack {
+                            Image(systemName: "heart.fill")
+                            Text("\(index)")
+                        }
+                    }
                 }
             }
-            .navigationTitle("iOS14")
+            .navigationBarTitle("iOS13")
         }
-
     }
 }
 
@@ -60,3 +57,4 @@ struct SettingView: View {
             .underline()
     }
 }
+
