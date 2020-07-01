@@ -17,6 +17,10 @@
 		30A088FB24AB129000315264 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A088D024AB128E00315264 /* ContentView.swift */; };
 		30A088FC24AB129000315264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A088D124AB128F00315264 /* Assets.xcassets */; };
 		30A088FD24AB129000315264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A088D124AB128F00315264 /* Assets.xcassets */; };
+		30C6614024AB828E00D0030F /* SealList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6613F24AB828E00D0030F /* SealList.swift */; };
+		30C6614124AB828E00D0030F /* SealList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6613F24AB828E00D0030F /* SealList.swift */; };
+		30C6614324AC146E00D0030F /* SealGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6614224AC146E00D0030F /* SealGrid.swift */; };
+		30C6614424AC146E00D0030F /* SealGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6614224AC146E00D0030F /* SealGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,8 @@
 		30A088F124AB129000315264 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A088F524AB129000315264 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		30A088F724AB129000315264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C6613F24AB828E00D0030F /* SealList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealList.swift; sourceTree = "<group>"; };
+		30C6614224AC146E00D0030F /* SealGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				30A088CF24AB128E00315264 /* iOS14App.swift */,
+				30C6613F24AB828E00D0030F /* SealList.swift */,
+				30C6614224AC146E00D0030F /* SealGrid.swift */,
 				30A088D024AB128E00315264 /* ContentView.swift */,
 				3070FCBB24AB226100A29DE7 /* SideBarView.swift */,
 				30A088D124AB128F00315264 /* Assets.xcassets */,
@@ -312,8 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C6614324AC146E00D0030F /* SealGrid.swift in Sources */,
 				3070FCBC24AB226100A29DE7 /* SideBarView.swift in Sources */,
 				30A088FA24AB129000315264 /* ContentView.swift in Sources */,
+				30C6614024AB828E00D0030F /* SealList.swift in Sources */,
 				30A088F824AB129000315264 /* iOS14App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C6614424AC146E00D0030F /* SealGrid.swift in Sources */,
 				3070FCBD24AB226100A29DE7 /* SideBarView.swift in Sources */,
 				30A088FB24AB129000315264 /* ContentView.swift in Sources */,
+				30C6614124AB828E00D0030F /* SealList.swift in Sources */,
 				30A088F924AB129000315264 /* iOS14App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
