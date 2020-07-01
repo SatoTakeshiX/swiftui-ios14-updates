@@ -13,9 +13,11 @@ struct SealGrid: View {
         GridItem(spacing: 0),
         GridItem(spacing: 0)
     ]
+    let mim100Colums = [
+        GridItem(.adaptive(minimum: 100))]
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: columns, spacing: 0) {
+            LazyVGrid(columns: mim100Colums, spacing: 0) {
                 ForEach(0 ..< 100) { _ in
                     Image("seal_\(Int.random(in: 1 ... 3))")
                         .resizable()
@@ -28,6 +30,11 @@ struct SealGrid: View {
 
 struct SealGrid_Previews: PreviewProvider {
     static var previews: some View {
-        SealGrid()
+        Group {
+            SealGrid()
+                .previewDevice(PreviewDevice(rawValue: "iPhone X"))
+            SealGrid()
+                .previewDevice(PreviewDevice(rawValue: "iPad8,1"))
+        }
     }
 }
